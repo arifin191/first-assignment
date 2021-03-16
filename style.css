@@ -1,8 +1,21 @@
 #bar{
-    position: absolute;
-    right: 0px;
-    font-size: 20px;    
+    
+    /* text-align: right; */
+    /* right: 0px; */
+    margin: 30px;
+    padding-left: 50px; 
+    font-size: 20px; 
+    overflow: hidden;
+    
+    /* float: right; */
+    
+    
 }
+
+h2{
+    font-size: 40px;
+}
+
 #menu{
     float:left;
     padding: 20px;
@@ -16,14 +29,9 @@ body{
     font-family: 'Bebas Neue', cursive;
 }
 
-#welcome{
-    height: 500px;    
-}
 
 section{
-    margin-bottom: 50px;
     
-    line-height: 2;
     border: 1px solid red;
 }
 .text-highlight{
@@ -37,20 +45,70 @@ h1{
 
 .tight{
     line-height: 0.3;
-    text-align: center;
+    text-align: left;
 }
 
 .half{
+   text-align: left;  
     width: 40%;
     float: left;
-    padding-left: 50px;
-    
-    
+    padding-left: 8%;   
 }
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
+.half img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
   }
+
+#bar h5{
+    float: left;
+    padding: 10px;
+}
+
+.link-btn{
+    padding: 10px 20px;
+    font-weight: 700;
+    background-image: linear-gradient(#1e1eacd0, cyan);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    align-content: center;
+    margin: 40px 30px;
+}
+
+div{
+    margin-bottom: 50px;
+    line-height: 2;
+}
+
+.project{
+    width: 30%;
+    padding: 1.5%;
+    border-radius: 5px;
+    float: left;
+}
+
+.project img{
+    height: 100px;
+    width: 200px;
+}
+
+p{
+    color: dimgray;
+}
+
+.showcase{
+    padding-top: 1300px ;
+    padding-left: 50px;
+}
+
+.contact{
+    text-align: center;
+    padding-top: 100px;
+    background-image: url("images/box.png");
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    width: 100%;
+}

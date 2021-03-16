@@ -1,0 +1,56 @@
+#bar{
+    position: absolute;
+    right: 0px;
+    font-size: 20px;    
+}
+#menu{
+    float:left;
+    padding: 20px;
+}
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.font-highlight{
+    font-family: 'Bebas Neue', cursive;
+}
+
+#welcome{
+    height: 500px;    
+}
+
+section{
+    margin-bottom: 50px;
+    
+    line-height: 2;
+    border: 1px solid red;
+}
+.text-highlight{
+    color: orangered;
+}
+
+h1{
+    font-size: 50px;
+    
+}
+
+.tight{
+    line-height: 0.3;
+    text-align: center;
+}
+
+.half{
+    width: 40%;
+    float: left;
+    padding-left: 50px;
+    
+    
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
